@@ -1,0 +1,726 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav-bar {
+  height: 7vh;
+}
+
+.nav-bar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 7vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-bar ul li {
+  list-style: none;
+  margin: 0% 1%;
+}
+
+.nav-bar ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.container {
+  height: 93vh;
+  overflow-y: scroll;
+}
+
+.container .home-container {
+  height: 92vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .home-container .left-name {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .home-container .left-name .name-box {
+  width: 100%;
+  height: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .home-container .left-name .name-box h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1%;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  -webkit-animation-name: h1;
+          animation-name: h1;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+@-webkit-keyframes h1 {
+  from {
+    opacity: 0;
+    margin-bottom: -10px;
+    font-size: 0rem;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes h1 {
+  from {
+    opacity: 0;
+    margin-bottom: -10px;
+    font-size: 0rem;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.container .home-container .left-name .name-box h2 {
+  color: black;
+  font-size: 1.5rem;
+  margin-top: 1%;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-animation-name: h2;
+          animation-name: h2;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+@-webkit-keyframes h2 {
+  from {
+    opacity: 0;
+    margin-top: -10px;
+    font-size: 0rem;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes h2 {
+  from {
+    opacity: 0;
+    margin-top: -10px;
+    font-size: 0rem;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.container .home-container .right-image {
+  width: 40vw;
+  height: auto;
+  background: url("../image/home.jpg") no-repeat center;
+  background-size: 100vh auto;
+}
+
+.container .about-container {
+  height: 92vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: whitesmoke;
+}
+
+.container .about-container .about-heading h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.container .about-container .details {
+  height: 85vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .about-container .details .photo {
+  width: 25vw;
+  margin-right: 3%;
+}
+
+.container .about-container .details .photo img {
+  width: 100%;
+}
+
+.container .about-container .details .about-me {
+  width: 30vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .about-container .details .about-me .about-detail {
+  height: 60%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .about-container .details .about-me .about-detail h3 {
+  font-size: 1.2rem;
+  margin-bottom: 3%;
+}
+
+.container .about-container .details .about-me .about-detail p {
+  margin-top: 2%;
+  font-size: 1.1rem;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container .about-container .details .personal-intrest {
+  width: 30vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 5%;
+}
+
+.container .about-container .details .personal-intrest .personal-intrest-details {
+  margin-top: 30%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container .about-container .details .personal-intrest .personal-intrest-details p {
+  margin-top: 3%;
+}
+
+.container .about-container .details .personal-intrest .personal-intrest-details ul {
+  margin-top: 3%;
+}
+
+.container .technical-section {
+  height: 92vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .technical-section .technical-heading h3 {
+  font-size: 3rem;
+  margin-bottom: 3%;
+}
+
+.container .technical-section .technical-details {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .technical-section .technical-details .about-technical {
+  margin-top: 5%;
+  width: 80%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container .technical-section .technical-details .technologies {
+  height: 10vh;
+  width: 80vw;
+  margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .technical-section .technical-details .technologies .techno {
+  width: 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.5rem;
+  margin: 0% 4%;
+}
+
+.container .technical-section .technical-details .most-used-skills {
+  height: 50vh;
+  width: 90vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .technical-section .technical-details .most-used-skills .skills-heading {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-top: 2%;
+}
+
+.container .technical-section .technical-details .most-used-skills .box {
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .technical-section .technical-details .most-used-skills .box .left-framework {
+  width: 50vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .technical-section .technical-details .most-used-skills .box .left-framework h5 {
+  font-size: 1.5rem;
+}
+
+.container .technical-section .technical-details .most-used-skills .box .left-framework ul {
+  margin-top: 3%;
+}
+
+.container .technical-section .technical-details .most-used-skills .box .left-framework ul li {
+  font-size: 1.2rem;
+}
+
+.container .technical-section .technical-details .most-used-skills .box .software {
+  width: 50vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .technical-section .technical-details .most-used-skills .box .software h5 {
+  font-size: 1.5rem;
+}
+
+.container .technical-section .technical-details .most-used-skills .box .software ul {
+  margin-top: 3%;
+}
+
+.container .technical-section .technical-details .most-used-skills .box .software ul li {
+  font-size: 1.2rem;
+}
+
+.container .education-section {
+  height: 92vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: whitesmoke;
+}
+
+.container .education-section .education-heading {
+  text-align: center;
+}
+
+.container .education-section .education-heading h3 {
+  font-size: 3rem;
+  margin-bottom: 2%;
+}
+
+.container .education-section .bachelors-education {
+  margin-top: 3%;
+  width: 90vw;
+  height: 30vh;
+}
+
+.container .education-section .bachelors-education .college-name {
+  margin-top: 2%;
+}
+
+.container .education-section .bachelors-education .college-name h4 {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.container .education-section .bachelors-education .degree-name {
+  margin-top: 1%;
+}
+
+.container .education-section .bachelors-education .degree-name h5 {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+.container .education-section .bachelors-education .graduation-year {
+  margin-top: 2%;
+  text-align: center;
+}
+
+.container .education-section .bachelors-education .graduation-year h5 {
+  display: inline;
+  font-size: 1rem;
+}
+
+.container .education-section .bachelors-education .graduation-year p {
+  display: inline;
+}
+
+.container .education-section .bachelors-education .percentage {
+  margin-top: 2%;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.container .education-section .bachelors-education .percentage h5 {
+  display: inline;
+}
+
+.container .education-section .bachelors-education .percentage p {
+  display: inline;
+}
+
+.container .education-section .masters-education {
+  margin-top: 3%;
+  width: 90vw;
+  height: 30vh;
+}
+
+.container .education-section .masters-education .college-name {
+  margin-top: 2%;
+}
+
+.container .education-section .masters-education .college-name h4 {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.container .education-section .masters-education .degree-name {
+  margin-top: 1%;
+  text-align: center;
+}
+
+.container .education-section .masters-education .degree-name h5 {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: lighter;
+  display: inline;
+}
+
+.container .education-section .masters-education .specilization {
+  text-align: center;
+  margin-top: 1.5%;
+}
+
+.container .education-section .masters-education .specilization h6 {
+  font-size: .9rem;
+  font-weight: lighter;
+  display: inline;
+}
+
+.container .education-section .masters-education .specilization p {
+  display: inline;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.container .education-section .masters-education .graduation-year {
+  margin-top: 2%;
+  text-align: center;
+}
+
+.container .education-section .masters-education .graduation-year h5 {
+  display: inline;
+  font-size: 1rem;
+}
+
+.container .education-section .masters-education .graduation-year p {
+  display: inline;
+}
+
+.container .education-section .masters-education .percentage {
+  margin-top: 2%;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.container .education-section .masters-education .percentage h5 {
+  display: inline;
+}
+
+.container .education-section .masters-education .percentage p {
+  display: inline;
+}
+
+.container .favorite-projects {
+  height: 92vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .favorite-projects .projects-heading {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 3%;
+}
+
+.container .favorite-projects .cards {
+  width: 95vw;
+  height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .favorite-projects .cards .card {
+  background: white;
+  width: 25vw;
+  height: 55vh;
+  margin: 3% 1%;
+  border-radius: 10%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+          box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .favorite-projects .cards .card:hover {
+  scale: 1.1;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+}
+
+.container .favorite-projects .cards .card .photo {
+  width: 100%;
+  height: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .favorite-projects .cards .card .photo img {
+  width: 100%;
+  height: auto;
+}
+
+.container .favorite-projects .cards .card .card-text {
+  margin-top: 15%;
+  padding: 0% 10%;
+}
+
+.container .favorite-projects .cards .card .card-text h5 {
+  font-size: 1rem;
+  border-bottom: 1px solid blue;
+  display: inline;
+  font-style: italic;
+}
+
+.container .favorite-projects .cards .card .card-text p {
+  margin-top: 3%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container .contact-section {
+  border: 2px solid black;
+  height: 92vh;
+  background: #0d2c5a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .contact-section .contact-heading {
+  margin-top: 3%;
+  color: white;
+  font-size: 3rem;
+}
+
+.container .contact-section .contact-line {
+  color: white;
+  margin-top: 5%;
+  text-align: center;
+  width: 70vw;
+  height: 5vh;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container .contact-section .message-box {
+  margin-top: 5%;
+  height: 50vh;
+  width: 90vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .contact-section .message-box input {
+  width: 60vw;
+  margin: 1% 0%;
+  font-size: 1.2rem;
+  padding: .6% 1%;
+  font-style: italic;
+}
+
+.container .contact-section .message-box textarea {
+  margin-top: 1%;
+  font-size: 1.1rem;
+  padding: 1% 1%;
+  font-style: italic;
+}
+
+.container .contact-section .message-box .btn {
+  margin-top: 3%;
+  font-size: 1.2rem;
+  padding: 1% 2%;
+  border-radius: 10px;
+  color: black;
+  background: lightblue;
+  cursor: pointer;
+}
+/*# sourceMappingURL=index.css.map */
